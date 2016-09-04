@@ -128,6 +128,10 @@
     font-size: 3rem;
     line-height: 1em;
     color: @white;
+    a {
+      color: white;
+      text-decoration: underline;
+    }
   }
 
   .landing-button
@@ -148,6 +152,14 @@
     {
       background-color: @white;
       color: @red;
+    }
+
+    &.landing-button-main {
+      font-weight: bold;
+    }
+
+    &.landing-button-legacy {
+      margin-left: 200px;
     }
   }
 }

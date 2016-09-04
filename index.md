@@ -1,12 +1,5 @@
 ---
 title: "Home"
-children:
-  - tutorials
-  - reference
-  - howtos
-  - glossary
-  - roadmap
-  - support
 layout: "home"
 ---
 
